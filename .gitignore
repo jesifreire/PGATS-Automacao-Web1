@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Cypress folders
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Output of npm or yarn
+package-lock.json
+yarn.lock

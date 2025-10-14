@@ -1,0 +1,9 @@
+{
+  "name": "Eevee",
+  "email": "eevee-1759530412987@teste.com",
+  "Subject": "Testing Send Message",
+  "Message": "This is a test message",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "user":"eevee-1759530412987@teste.com",
+  "password": "123456"
+}
