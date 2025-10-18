@@ -1,5 +1,5 @@
 describe('Cadastrar entradas e saídas com bugs', () => {
-    it('Cadastrar uma nova transação de entrada - falha 1', () => {
+    it('Cadastrar uma nova transação de entrada', () => {
       cy.visit("https://devfinance-agilizei.netlify.app")
    
       cy.contains("Nova Transação").click()
@@ -14,7 +14,7 @@ describe('Cadastrar entradas e saídas com bugs', () => {
   
     });
   
-    it('Cadastrar uma nova transação de entrada - falha 2', () => {
+    it('Cadastrar uma nova transação de entrada', () => {
       cy.visit("https://devfinance-agilizei.netlify.app")
   
       cy.contains("Nova Transação").click()
@@ -27,7 +27,7 @@ describe('Cadastrar entradas e saídas com bugs', () => {
       cy.get("tbody tr").should("have.length", 1)
     });  
   
-    it('Cadastrar uma nova transação de entrada - falha 3', () => {
+    it('Cadastrar uma nova transação de entrada', () => {
       cy.visit("https://devfinance-agilizei.netlify.app")
       cy.contains("Nova Transação").click()
       cy.get("#description").type("Mesada")
@@ -40,7 +40,7 @@ describe('Cadastrar entradas e saídas com bugs', () => {
   //    cy.get("tbody tr").should("have.length", 1)
     });
   
-    it('Cadastrar uma nova transação de entrada - falha 4', () => {
+    it('Cadastrar uma nova transação de entrada', () => {
       cy.visit("https://devfinance-agilizei.netlify.app")
   
       cy.contains("Nova Transação").click()
@@ -53,7 +53,7 @@ describe('Cadastrar entradas e saídas com bugs', () => {
       cy.get("tbody tr").should("have.length", 1)
     });
   
-    it('Cadastrar uma nova transação de entrada - falha 5', () => {
+    it('Cadastrar uma nova transação de entrada', () => {
       cy.visit("https://devfinance-agilizei.netlify.app")
   
       cy.contains("Nova Transação").click()
@@ -65,7 +65,7 @@ describe('Cadastrar entradas e saídas com bugs', () => {
   
     });
   
-    it('Cadastrar uma nova transação de entrada - falha 6', () => {
+    it('Cadastrar uma nova transação de entrada', () => {
       cy.visit("https://devfinance-agilizei.netlify.app")
       cy.contains("Nova Transação").click()
       cy.get("#description").type("Mesada")
